@@ -1,0 +1,87 @@
+# =========================
+# FRONTEND
+# =========================
+
+frontend/node_modules
+frontend/dist
+frontend/build
+frontend/.vite
+
+# =========================
+# BACKEND (PYTHON)
+# =========================
+
+backend/venv
+backend/__pycache__
+backend/*.pyc
+backend/data
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# AI / CACHE FILES
+# =========================
+
+backend/cache
+*.npy
+*.index
+
+# =========================
+# ENV FILES
+# =========================
+
+.env
+frontend/.env
+backend/.env
+
+# =========================
+# LOG FILES
+# =========================
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# =========================
+# VS CODE / OS
+# =========================
+
+.vscode
+.DS_Store
+Thumbs.db
+
+# =========================
+# TEMP FILES
+# =========================
+
+tmp/
+temp/
+.cache/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
